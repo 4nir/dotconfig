@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/anirudhkaushik/Documents/pseudonyms'
+let g:netrw_dirhist_0='/Users/anirudhkaushik/Documents/pseudonyms/.git'
+let g:netrw_dirhist_9='/Users/anirudhkaushik/Documents/pseudonyms'
+let g:netrw_dirhist_8='/Users/anirudhkaushik/Documents/stars-summary/frontend/stars-react/src'
+let g:netrw_dirhist_7='/Users/anirudhkaushik/Documents/stars-summary/frontend/stars-react'
+let g:netrw_dirhist_6='/Users/anirudhkaushik/Documents/stars-summary/frontend'
+let g:netrw_dirhist_5='/Users/anirudhkaushik/Documents/stars-summary'
+let g:netrw_dirhist_4='/Users/anirudhkaushik/Desktop/vsc_notes/cs-401'
+let g:netrw_dirhist_3='/Users/anirudhkaushik/Desktop/vsc_notes'
+let g:netrw_dirhist_2='/Users/anirudhkaushik/Desktop/vsc_notes/cs-270'
