@@ -9,6 +9,7 @@ set incsearch
 set relativenumber
 set spell spelllang=en_us
 
+"Plug-ins
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
@@ -17,6 +18,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
+Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
 
@@ -24,6 +26,10 @@ call plug#end()
 colorscheme gruvbox
 set background=dark 
 
-"NERDTree Settings
+"Remaps
 nmap <C-f> :NERDTreeToggle<CR>
 
+nnoremap <Up> :resize -2<CR>
+nnoremap <Down> :resize +2<CR>
+nnoremap <Left> :vertical resize -2<CR>
+nnoremap <Right> :vertical resize +2<CR>
