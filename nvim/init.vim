@@ -9,11 +9,15 @@ set incsearch
 set relativenumber
 set spell spelllang=en_us
 
+"Markdown Line-wrap
+au BufRead,BufNewFile *.md setlocal textwidth=60
+
 "Plug-ins
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'christoomey/vim-tmux-navigator'
@@ -39,5 +43,9 @@ nnoremap <Up> :resize -2<CR>
 nnoremap <Down> :resize +2<CR>
 nnoremap <Left> :vertical resize -2<CR>
 snoremap <Right> :vertical resize +2<CR>
-nnoremap <C-[> :tabprevious<CR>                                                                            
+nnoremap <C-[> :tabprevious<CR>
 nnoremap <C-]> :tabnext<CR>
+
+"Macros
+let @u = '1z=' 
+
